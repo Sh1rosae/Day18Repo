@@ -27,9 +27,13 @@ namespace Day18WPF
         {
             InitializeComponent();
             var client = new WebClient();
-            var response = client.DownloadString("http://localhost:/api/hotels");
+            var response = client.DownloadString("http://localhost:56239/api/hotels");
             CurrentHotels = JsonConvert.DeserializeObject<List<Hotel>>(response);
             DataContext = this;
+            //////////fsdfsf
+            ////////sdfsdf
+            ////sdfsdfs
+            ///
         }
     }
 }
